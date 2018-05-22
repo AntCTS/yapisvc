@@ -1,0 +1,11 @@
+/home/antonis/yahooAPI/yapisvc/bin/Debug/netcoreapp2.0/yapisvc.deps.json
+/home/antonis/yahooAPI/yapisvc/bin/Debug/netcoreapp2.0/yapisvc.runtimeconfig.json
+/home/antonis/yahooAPI/yapisvc/bin/Debug/netcoreapp2.0/yapisvc.runtimeconfig.dev.json
+/home/antonis/yahooAPI/yapisvc/bin/Debug/netcoreapp2.0/yapisvc.dll
+/home/antonis/yahooAPI/yapisvc/bin/Debug/netcoreapp2.0/yapisvc.pdb
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.csprojAssemblyReference.cache
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.csproj.CoreCompileInputs.cache
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.AssemblyInfoInputs.cache
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.AssemblyInfo.cs
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.dll
+/home/antonis/yahooAPI/yapisvc/obj/Debug/netcoreapp2.0/yapisvc.pdb
