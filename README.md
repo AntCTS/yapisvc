@@ -26,6 +26,12 @@ Then after the containerization completes (all 10 steps), you should see somethi
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/docker2.png?raw=true "yapi")
 
-Then you can run your instance like so :
+Now, because the Docker instance will not manage the network bindings at all, if you want your service bound to the same port 
+you can run your instance like so :
 
-<b>sudo docker run -d -p 5000:80 --name yapisvc yapisvc</b>
+<b>sudo docker run -p 5000:5000 yapisvc</b>
+
+To stop the Docker instance just issue : <b>sudo docker stop yapisvc</b>. 
+And to completely remove it, issue : <b>sudo docker rm yapisvc</b>
+
+Of course you can run multiple instances (also boubd to different host ports).
