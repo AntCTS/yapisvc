@@ -12,3 +12,7 @@ You should see something like below :
 Call and test with Postman (chrome extension) like below :
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/postman.png?raw=true "yapi")
+
+If you want to build a Docker image you can do so by using the following command in your Ubuntu linux distro :
+
+sudo docker build -t yapisvc .
