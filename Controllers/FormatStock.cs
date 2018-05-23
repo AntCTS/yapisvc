@@ -1,29 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using yapisvc.Models;
 
-
 namespace yapisvc.Controllers
 {
     [Route("api/[controller]")]
-    partial class FormatStock : Controller
+    public partial class getStockPrice : Controller
     {
-        StockFormatter formatter = new StockFormatter();
-
-        public IActionResult Post([FromBody] FormattedStock fStock)
+        public IActionResult Post([FromBody]FormattedStock fStock)
         {
             if(fStock!=null)
             {
-                formatter.StockCode = fStock.StockCode;
-                formatter.GetStockValue();
-                return Ok(formatter.StockValue);
+                StockFormatter.StockCode = fStock.StockCode;
+                StockFormatter.GetStockValue();
+                return Ok(StockFormatter.StockValue);
             }
             else
             {
                 return BadRequest();
             }
-
         }
-
     }
-
 }
