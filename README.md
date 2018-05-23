@@ -28,4 +28,4 @@ Then after the containerization completes (all 10 steps), you should see somethi
 
 Then you can run your instance like so :
 
-<b>sudo docker run -d -p 5000:80 --name yapisvc aspnetapp</b>
+<b>sudo docker run -d -p 5000:80 --name yapisvc yapisvc</b>
