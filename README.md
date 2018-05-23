@@ -16,3 +16,8 @@ Call and test with Postman (chrome extension) like below :
 If you want to build a Docker image you can do so by using the following command in your Ubuntu linux distro :
 
 sudo docker build -t yapisvc .
+
+
+Process will take it's time and looks like below while running :
+
+![image](https://github.com/AntCTS/yapisvc/blob/master/docker.png?raw=true "yapi")
