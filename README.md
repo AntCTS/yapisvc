@@ -31,7 +31,10 @@ you can run your instance like so :
 
 <b>sudo docker run -p 5000:5000 yapisvc</b>
 
-To stop the Docker instance just issue : <b>sudo docker stop yapisvc</b>. 
+To stop the Docker instance just issue : <b>sudo docker stop yapisvc</b>. <br>
 And to completely remove it, issue : <b>sudo docker rm yapisvc</b>
 
-Of course you can run multiple instances (also boubd to different host ports).
+Of course you can run multiple instances in different containers. <br>
+Below, final screenshot hitting the microservice from outside the Linux box, and using the Docker instance : <br>
+
+![image](https://github.com/AntCTS/yapisvc/blob/master/docker3.png?raw=true "yapi")
