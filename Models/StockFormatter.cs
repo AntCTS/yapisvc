@@ -5,21 +5,19 @@ using System.Threading.Tasks;
 
 namespace yapisvc.Models
 {
-    public class StockFormatter
+    public static class StockFormatter
     {
-        public string StockCode  {get;set;}
-        public string StockValue {get;set;} 
+        public static string StockCode  {get;set;}
+        public static string StockValue {get;set;} 
 
         private static string sValue {get;set;}
 
-        public void GetStockValue()
+        public static void GetStockValue()
         {
             // ----- yahooAPI call ------
-            //callYahoo(StockCode).Wait();
-            //StockValue = sValue;
-
-            string strPrice = "8054" + "-"+DateTime.Now.ToString();
-            StockValue = String.Format("{0:1}",StockCode,strPrice );
+            callYahoo(StockCode).Wait();
+            StockValue = sValue;
+            StockValue = String.Format("{0}:{1}",StockCode,StockValue );
         }
 
          private static async Task callYahoo(string stockCode)
