@@ -8,7 +8,7 @@ Development Enviroment :<br>
 - YahooAPI pkg
 
 This is a containerized microservice implementation on dotnetcore to get Stock values from Yahoo.
-To run in linux (or any other OS supportig dotnetcore use "dotnet run", while in the path o the project.
+To run in linux (or any other OS supporting dotnetcore) use "dotnet run", while in the path of the project.
 You should see something like below :
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/img.png?raw=true "yapi")
