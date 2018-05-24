@@ -1,22 +1,26 @@
 # yapisvc
 YahooAPI Microservice
 
-Microservice implementation on dotnetcore to get Stock values from Yahoo.
+Development Enviroment :<br> 
+- Linux Mint 18.04 (latest as of today)<br>
+- dotnet core 2.1 <br>
+- Docker (edge build)
+- YahooAPI pkg
 
-Run with "dotnet run", while in the path and in a linux box that has dotnetcore installed.
-
+This is a containerized microservice implementation on dotnetcore to get Stock values from Yahoo.
+To run in linux (or any other OS supportig dotnetcore use "dotnet run", while in the path o the project.
 You should see something like below :
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/img.png?raw=true "yapi")
 
-Call and test with Postman (chrome extension) like below :
+You can test with Postman (chrome extension) like below :
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/postman.png?raw=true "yapi")
 
-If you want to build a Docker image you can do so by using the following command in your Ubuntu linux distro :
+Containerization is easy as a script is provided.<br>
+If you want to build a Docker image you can do so by using the following command in your linux distro :
 
 <b>sudo docker build -t yapisvc .</b>
-
 
 Process will take it's time and looks like below while running :
 
@@ -26,7 +30,7 @@ Then after the containerization completes (all 10 steps), you should see somethi
 
 ![image](https://github.com/AntCTS/yapisvc/blob/master/docker2.png?raw=true "yapi")
 
-Now, because the Docker instance will not manage the network bindings at all, if you want your service bound to the same port 
+Now, because the Docker instance will not manage the network bindings, if you want your service bound to the same port 
 you can run your instance like so :
 
 <b>sudo docker run -p 5000:5000 yapisvc</b>
