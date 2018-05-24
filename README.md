@@ -3,7 +3,7 @@ YahooAPI Microservice
 
 Development Enviroment :<br> 
 - Linux Mint 18.04 (latest as of today)<br>
-- dotnet core 2.1 <br>
+- dotnet core 2.1.200 <br>
 - Docker (edge build)
 - YahooAPI pkg
 
